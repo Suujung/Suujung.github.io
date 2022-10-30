@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "NanumSquare";
+	src: local(NanumSquare);
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareR.eot") format("opentype"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareR.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareR.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "NanumSquare";
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareB.eot"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareB.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareB.ttf") format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "NanumSquare";
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareEB.eot"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareEB.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareEB.ttf") format("truetype");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "NanumSquare";
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareLight.eot"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareLight.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquare/NanumSquareLight.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "NanumSquareNeo";
+	font-style: normal;
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot");
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix") format("embedded-opentype"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff2") format("woff2"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "NanumSquareNeo";
+	font-style: normal;
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot");
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix") format("embedded-opentype"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff2") format("woff2"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "NanumSquareNeo";
+	font-style: normal;
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot");
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix") format("embedded-opentype"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff2") format("woff2"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf") format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "NanumSquareNeo";
+	font-style: normal;
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot");
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix") format("embedded-opentype"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff2") format("woff2"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf") format("truetype");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "NanumSquareNeo";
+	font-style: normal;
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot");
+	src: url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot?#iefix") format("embedded-opentype"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff") format("woff"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff2") format("woff2"), url("https://campaign-cdn.pstatic.net/0/campaign/font/NanumSquareNeo/NanumSquareNeoTTF-eHv.ttf") format("truetype");
+	font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Somi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/Somi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+	height: 100%;
+	-webkit-text-size-adjust: none;
+}
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, table, th, td, form, fieldset, legend, textarea, input, select, textarea, button, figure, figcaption, a, span, address, strong {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body, input, select, textarea, button, h1, h2, h3, h4, h5, h6, a {
+	color: #111;
+	font-family: 'NanumSquareNeo','NanumSquare','나눔스퀘어',AppleSDGothicNeo-Regular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	     appearance: none;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+em, address {
+	font-style: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+	-webkit-tap-highlight-color: transparent;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+	-webkit-tap-highlight-color: transparent;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.blind {
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0px, 0px, 0px, 0px);
+}
+
+input, select, textarea, button, a, label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
