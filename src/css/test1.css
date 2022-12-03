@@ -547,4 +547,9 @@ input, select, textarea, button, a, label {
 	background-position: center;
 	background-size: auto 400px;
 }
+.wrap .work_project .items:nth-child(7) {
+	background: url(../img/project_list_07.png);
+	background-position: center;
+	background-size: auto 400px;
+}
 /*# sourceMappingURL=test1.css.map */
